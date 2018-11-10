@@ -1,3 +1,5 @@
 [submodule "themes/freewebtools"]
   path = themes/freewebtools
   url = "https://github.com/nickvaldev/freewebtoolsHugo"
+[submodule "bar1"]
+	branch = master
