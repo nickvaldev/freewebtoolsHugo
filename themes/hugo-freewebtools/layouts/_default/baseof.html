@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>{{ partial "head.html" . }}</head>
+<body>
+
+	<!-- page header -->
+	<header class="page-header">
+		<div class="bar">
+			<div class="trigger">
+				<div class="burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+
+
+			<div class="blog-search">
+				<i class="fa fa-search"></i>
+				<input type="search" name="s" autocomplete="off" class="field searchinput" placeholder="Πληκτρολογήστε τι ψάχνετε">
+			</div>
+
+			<div class="back">
+				<span></span>
+			</div>
+		</div>
+
+
+		 		<!-- page nav -->
+		<nav class="nav">
+                <ul class="menu">
+                    <li>
+                        <a href="#">Home</a>
+                        <ul class="submenu">
+                            <li><a href="index.html">Portfolio</a></li>
+                            <li><a href="index-agency.html">Agency</a></li>
+                            <li><a href="index-freelancer.html">Freelancer</a></li>
+                            <li><a href="index-personal.html">Personal</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                        <ul class="submenu">
+                            <li><a href="index.html">Masonry</a></li>
+                            <li><a href="portfolio-grid.html">Classic Grid</a></li>
+                            <li><a href="portfolio-cards.html">Cards</a></li>
+                            <li><a href="portfolio-spaced.html">Spaced</a></li>
+                            <li><a href="portfolio-slides.html">Vertical Slides</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                        <ul class="submenu">
+                            <li><a href="blog.html">Full Width</a></li>
+                            <li><a href="blog-single.html">Single Post</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Pages</a>
+                        <ul class="submenu">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="about-minimal.html">About Minimal</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="utility-404.html">Error 404</a></li>
+                            <li><a href="utility-maintenance.html">Maintenance</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+    
+                <div class="copy">&copy; 2017 Nous Studio.</div>
+            </nav>
+		
+    </header>
+    
+	<!-- page search -->
+	<div id="page-search" class="light--content">
+            <form method="get" action="#" id="form-search">
+                <input type="search" name="s" autocomplete="off" class="field" placeholder="Type keywords and press enter...">
+            </form>
+        </div>
+
+	<!-- page content -->
+	<div class="page-content">
+
+              {{ block "main" . }}
+              {{ end }}
+          </div>
+      </div>
+      
+  </div>
+  {{ partial "scripts.html" . }}
+</body>
+</html>

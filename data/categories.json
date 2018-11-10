@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Μετατροπές",
+    "class": "converts" 
+  },
+  {
+    "name": "Μαθηματικά",
+    "class": "math"
+  },
+  {
+    "name": "Οικονομικά",
+    "class": "economy"
+  },
+  {
+    "name": "Λέξεις",
+    "class": "words"
+  },
+  {
+    "name": "Ημερομηνίες",
+    "class": "dates"
+  },
+  {
+    "name": "Υγεία",
+    "class": "health"
+  },
+  {
+    "name": "Τυχαιότητα",
+    "class": "random"
+  },
+  {
+    "name": "Άλλα",
+    "class": "misc"
+  }
+]

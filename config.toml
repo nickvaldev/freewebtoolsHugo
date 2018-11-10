@@ -1,0 +1,63 @@
+baseurl = "/"
+title = "Δωρεάν Xρήσιμες Eφαρμογές και Eργαλεία"
+subtitle= " | freewebtools.ga"
+theme = "ga-hugo-theme"
+languageCode = "el"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+[params]
+
+  [params.meta]
+    viewport = "width=device-width, initial-scale=1"
+    description = "Προσπαθούμε να δημιουργήσουμε απλούς και εύχρηστους υπολογιστές, μετατροπείς, εργαλεία και άλλες εφαρμογές για να διευκολύνετε τη ζωή σας."
+    keywords = "υπολογιστές, μετατροπείς, εργαλεία, εφαρμογές, tools, calculators, converters, utilities"
+    author = "nickval"
+    # geoPosition = "latitude; longitude"
+    # geoPlacename" = "Place Name"
+    geoRegion = "Greece"
+    ogLocale = "el_GR"
+    ogType = "website"
+    ogUrl ="http://www.freewebtools.ga/"
+    ogSite_name ="Δωρεάν Χρηστικές Εφαρμογές"
+    ogImage ="http://www.freewebtools.ga/assets/img/δωρεάν-χρηστικές-εφαρμογές.png"
+    robots ="all,follow"
+    googlebot ="index,follow,snippet,archive"
+
+  copyright = "&copy;2016 Your name or company"
+  sidebarAbout = [
+    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
+    "Originally from Toronto, currently based in London."
+  ]
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "you@yoursite.com"
+
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Home"
+  url = "portfolio/"
+  home = true
+
+  [[params.navlinks]]
+  name = "About"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "Get in touch"
+  url = "contact/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  categoryClass = "categoryClasses"

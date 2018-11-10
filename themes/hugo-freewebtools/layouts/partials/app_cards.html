@@ -1,0 +1,25 @@
+<div class="gallery full" data-cols="4" data-height="0.8" data-double-height="2" data-margin="0">
+    {{ range .Site.Data.apps }}
+        <!-- entry -->
+        <div class="entry {{ .categoryClass }}">
+            <a href="{{ .href }}">
+                <div class="entry__image" data-bg="{{ .photoUrl | absURL }}"></div>
+                <div class="entry__content">
+                    <div class="overlay">
+                        <div class="overlay--caption bottom  {{ if eq .lightContent true }}light--content  {{ end }}">
+                            <h6 class="entry-cat">{{ .category }}</h6>
+                            <h5 class="entry-title">{{ .info }}</h5>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    {{ end }}
+</div>
+
+
+{{ range .Pages }}
+  <h1>{{ .Title }}</h1>
+  <h1>{{ .Params.appNum }}</h1>
+  <h1>{{ .Params.categories }}</h1>
+{{ end }}
