@@ -1,7 +1,7 @@
 baseurl = ""
 title = "Δωρεάν Xρήσιμες Eφαρμογές και Eργαλεία"
 subtitle= " | freewebtools.ga"
-theme = "ga-hugo-theme"
+theme = "freewebtools"
 languageCode = "el"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
